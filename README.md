@@ -78,3 +78,14 @@ ecommerce_orders_pipeline/
 ```
 
 ---
+
+## ⚙️ Tech Stack
+
+- Python 3.9+
+- Apache Spark (PySpark)
+- Parquet Data Lake Storage
+- Layered Data Engineering Design
+- Star Schema Modeling
+- Business Analytics Queries
+
+---
