@@ -21,3 +21,17 @@ This pipeline processes raw online order data and performs:
 The output datasets are stored in **Parquet format**, which is widely used in production data lakes.
 
 ---
+
+## ✅ Key Features
+
+- Ingest raw e-commerce transaction data from CSV
+- Store raw data into **Bronze Parquet layer**
+- Clean, standardize, and enrich data into **Silver layer**
+- Add calculated fields such as `total_amount`
+- Detect high-value orders with fraud flagging
+- Build a complete **Star Schema** (dim + fact tables)
+- Generate revenue KPI reports
+- Modular job-based PySpark architecture
+- Professional GitHub commit workflow (50 commits)
+
+---
