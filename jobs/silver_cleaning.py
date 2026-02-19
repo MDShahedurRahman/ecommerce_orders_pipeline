@@ -12,6 +12,7 @@ def run_silver_job(spark):
 
     cleaned = (
         df.dropDuplicates(["order_id"])
+        .fillna({"payment_type": "Unknown"})
     )
 
     return cleaned
