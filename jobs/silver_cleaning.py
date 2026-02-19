@@ -14,6 +14,7 @@ def run_silver_job(spark):
         df.dropDuplicates(["order_id"])
         .fillna({"payment_type": "Unknown"})
         .withColumn("order_date", to_date(col("order_date"), "yyyy-MM-dd"))
+        .withColumn("total_amount", col("quantity") * col("price"))
     )
 
     return cleaned
