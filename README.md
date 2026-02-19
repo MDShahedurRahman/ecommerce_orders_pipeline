@@ -35,3 +35,13 @@ The output datasets are stored in **Parquet format**, which is widely used in pr
 - Professional GitHub commit workflow (50 commits)
 
 ---
+
+## 🏗 Architecture: Bronze → Silver → Gold
+
+| Layer   | Purpose |
+|--------|---------|
+| Bronze | Raw ingestion from source systems |
+| Silver | Cleaned and transformed datasets |
+| Gold   | Analytics-ready Star Schema + KPIs |
+
+---
