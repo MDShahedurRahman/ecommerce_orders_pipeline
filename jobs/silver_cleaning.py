@@ -17,4 +17,6 @@ def run_silver_job(spark):
         .withColumn("total_amount", col("quantity") * col("price"))
     )
 
+    cleaned.write.mode("overwrite").parquet(SILVER_PATH)
+
     return cleaned
