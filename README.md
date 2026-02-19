@@ -7,3 +7,17 @@ This project simulates how real-world companies process raw e-commerce transacti
 It is designed as a strong portfolio project for Data Engineering roles.
 
 ---
+
+## 🚀 Project Overview
+
+This pipeline processes raw online order data and performs:
+
+- Data ingestion from CSV (Bronze Layer)
+- Cleaning and transformation (Silver Layer)
+- Fraud detection logic
+- Star Schema modeling (Gold Layer)
+- Business KPI reporting for analytics
+
+The output datasets are stored in **Parquet format**, which is widely used in production data lakes.
+
+---
