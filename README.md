@@ -45,3 +45,36 @@ The output datasets are stored in **Parquet format**, which is widely used in pr
 | Gold   | Analytics-ready Star Schema + KPIs |
 
 ---
+
+## 📂 Project Structure
+
+```
+ecommerce_orders_pipeline/
+│
+├── main.py
+├── config.py
+├── requirements.txt
+│
+├── data/
+│ └── orders.csv
+│
+├── jobs/
+│ ├── bronze_ingestion.py
+│ ├── silver_cleaning.py
+│ ├── fraud_detection.py
+│ ├── gold_star_schema.py
+│ └── business_kpis.py
+│
+├── utils/
+│ ├── spark_session.py
+│ ├── schema.py
+│ └── helpers.py
+│
+└── output/
+├── bronze/
+├── silver/
+├── gold/
+└── reports/
+```
+
+---
