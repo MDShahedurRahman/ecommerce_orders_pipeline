@@ -172,3 +172,13 @@ Output directory:
 output/gold/
 
 ------------------------------------------------------------------------
+
+## Business KPI Reporting
+
+Generates revenue by payment type and exports CSV reports.
+
+Output directory:
+
+output/reports/
+
+------------------------------------------------------------------------
