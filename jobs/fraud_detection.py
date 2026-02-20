@@ -13,4 +13,9 @@ def run_fraud_detection(spark):
         when(col("total_amount") > 5000, "HIGH_VALUE_ORDER").otherwise("NORMAL")
     )
 
+    fraud_path = "output/silver/fraud_flagged/"
+    ensure_dir(fraud_path)
+
+    flagged.write.mode("overwrite").parquet(fraud_path)
+
     return flagged
