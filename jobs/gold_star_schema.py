@@ -12,3 +12,7 @@ def run_gold_job(spark):
     dim_customer = df.select(
         "customer_id", "customer_name", "country"
     ).dropDuplicates()
+
+    dim_product = df.select(
+        "product", "category", "price"
+    ).dropDuplicates()
