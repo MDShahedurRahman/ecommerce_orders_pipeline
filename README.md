@@ -155,3 +155,20 @@ Output directory:
 output/silver/fraud_flagged/
 
 ------------------------------------------------------------------------
+
+## Gold Layer: Star Schema Modeling
+
+Creates:
+
+Dimension Tables\
+- dim_customer\
+- dim_product
+
+Fact Table\
+- fact_orders
+
+Output directory:
+
+output/gold/
+
+------------------------------------------------------------------------
