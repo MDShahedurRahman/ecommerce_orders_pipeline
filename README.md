@@ -191,3 +191,13 @@ output/reports/
 -   Star Schema for BI tools integration
 
 ------------------------------------------------------------------------
+
+## GitHub Commit Strategy (50 Commits)
+
+Phase 1: Setup\
+Phase 2: Silver Cleaning\
+Phase 3: Fraud Detection\
+Phase 4: Gold Star Schema\
+Phase 5: KPI Reporting and Documentation
+
+------------------------------------------------------------------------
