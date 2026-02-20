@@ -182,3 +182,12 @@ Output directory:
 output/reports/
 
 ------------------------------------------------------------------------
+
+## Business Insights Produced
+
+-   Total revenue by payment method\
+-   High-value suspicious orders\
+-   Customer and product analytics-ready tables\
+-   Star Schema for BI tools integration
+
+------------------------------------------------------------------------
