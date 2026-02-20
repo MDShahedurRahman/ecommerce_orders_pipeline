@@ -26,3 +26,5 @@ def run_gold_job(spark):
         "order_date",
         "payment_type"
     )
+
+    dim_customer.write.mode("overwrite").parquet(GOLD_PATH + "dim_customer/")
