@@ -29,3 +29,4 @@ def run_gold_job(spark):
 
     dim_customer.write.mode("overwrite").parquet(GOLD_PATH + "dim_customer/")
     dim_product.write.mode("overwrite").parquet(GOLD_PATH + "dim_product/")
+    fact_orders.write.mode("overwrite").parquet(GOLD_PATH + "fact_orders/")
