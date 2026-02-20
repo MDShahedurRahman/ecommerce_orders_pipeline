@@ -16,3 +16,13 @@ def run_gold_job(spark):
     dim_product = df.select(
         "product", "category", "price"
     ).dropDuplicates()
+
+    fact_orders = df.select(
+        "order_id",
+        "customer_id",
+        "product",
+        "quantity",
+        "total_amount",
+        "order_date",
+        "payment_type"
+    )
