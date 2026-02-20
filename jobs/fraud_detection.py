@@ -18,4 +18,5 @@ def run_fraud_detection(spark):
 
     flagged.write.mode("overwrite").parquet(fraud_path)
 
+    print("Fraud Detection Output Saved.")
     return flagged
