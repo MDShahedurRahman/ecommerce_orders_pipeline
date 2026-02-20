@@ -201,3 +201,13 @@ Phase 4: Gold Star Schema\
 Phase 5: KPI Reporting and Documentation
 
 ------------------------------------------------------------------------
+
+## Future Enhancements
+
+-   Add Delta Lake support\
+-   Load Gold tables into Redshift or Snowflake\
+-   Build Airflow orchestration DAG\
+-   Add streaming ingestion with Kafka\
+-   Add advanced fraud analytics
+
+------------------------------------------------------------------------
