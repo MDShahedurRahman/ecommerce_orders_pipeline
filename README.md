@@ -132,3 +132,16 @@ Output directory:
 output/bronze/
 
 ------------------------------------------------------------------------
+
+## Silver Layer: Cleaning & Transformation
+
+-   Remove duplicates\
+-   Handle missing values\
+-   Convert dates\
+-   Add total_amount column
+
+Output directory:
+
+output/silver/
+
+------------------------------------------------------------------------
