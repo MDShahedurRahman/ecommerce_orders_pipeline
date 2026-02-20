@@ -122,3 +122,13 @@ pip install -r requirements.txt
 python main.py
 
 -----------------------------------
+
+## Bronze Layer: Raw Ingestion
+
+Loads raw CSV data, applies schema, and saves to Parquet.
+
+Output directory:
+
+output/bronze/
+
+------------------------------------------------------------------------
