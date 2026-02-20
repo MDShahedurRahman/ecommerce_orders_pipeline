@@ -145,3 +145,13 @@ Output directory:
 output/silver/
 
 ------------------------------------------------------------------------
+
+## Fraud Detection Layer
+
+Flags orders where total_amount \> 5000.
+
+Output directory:
+
+output/silver/fraud_flagged/
+
+------------------------------------------------------------------------
