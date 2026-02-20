@@ -211,3 +211,9 @@ Phase 5: KPI Reporting and Documentation
 -   Add advanced fraud analytics
 
 ------------------------------------------------------------------------
+
+## Author
+
+Md Shahedur Rahman\
+Master's in Computer Science\
+Data Engineering \| PySpark \| SQL \| Cloud Pipelines
