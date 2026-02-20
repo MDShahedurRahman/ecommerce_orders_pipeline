@@ -105,3 +105,20 @@ order_id,customer_id,customer_name,product,category,quantity,price,order_date,co
 5,C005,Raj Patel,Watch,Fashion,10,600,2025-01-12,India,Cash
 
 ---
+
+## How to Run the Project
+
+1.  Clone the repository
+
+git clone https://github.com/yourusername/ecommerce-orders-pipeline.git\
+cd ecommerce-orders-pipeline
+
+2.  Install dependencies
+
+pip install -r requirements.txt
+
+3.  Run the pipeline
+
+python main.py
+
+-----------------------------------
