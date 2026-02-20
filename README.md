@@ -104,6 +104,7 @@ order_id,customer_id,customer_name,product,category,quantity,price,order_date,co
 4,C004,Mohammed Ali,TV,Electronics,1,3000,2025-01-10,UK,Credit Card
 5,C005,Raj Patel,Watch,Fashion,10,600,2025-01-12,India,Cash
 
+```
 ---
 
 ## How to Run the Project
