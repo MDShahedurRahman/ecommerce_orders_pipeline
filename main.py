@@ -14,6 +14,7 @@ def main():
     run_silver_job(spark)
     run_fraud_detection(spark)
     run_gold_job(spark)
+    run_kpi_job(spark)
 
     spark.stop()
     print("Pipeline Completed Successfully!")
