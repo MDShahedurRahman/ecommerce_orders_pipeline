@@ -60,9 +60,9 @@ ecommerce_orders_pipeline/
 │ └── orders.csv
 
 ├── jobs/\
-│ ├── bronze_ingestion.py\
-│ ├── silver_cleaning.py\
-│ ├── fraud_detection.py\
+│ ├── bronze_ingestion.py
+│ ├── silver_cleaning.py
+│ ├── fraud_detection.py
 │ ├── gold_star_schema.py
 │ └── business_kpis.py
 
