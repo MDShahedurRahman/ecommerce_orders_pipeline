@@ -12,6 +12,7 @@ def main():
 
     run_bronze_job(spark)
     run_silver_job(spark)
+    run_fraud_detection(spark)
 
     spark.stop()
     print("Pipeline Completed Successfully!")
