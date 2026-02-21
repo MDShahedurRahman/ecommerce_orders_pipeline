@@ -66,9 +66,9 @@ ecommerce_orders_pipeline/
 │ ├── gold_star_schema.py\
 │ └── business_kpis.py
 
-├── utils/\
+├── utils/
 │ ├── spark_session.py
-│ ├── schema.py\
+│ ├── schema.py
 │ └── helpers.py
 
 └── output/
