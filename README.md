@@ -49,7 +49,7 @@ Gold → Analytics-ready Star Schema + KPIs
 ------------------------------------------------------------------------
 
 ## Project Folder Structure
-
+```
 ecommerce_orders_pipeline/
 
 ├── main.py\
@@ -76,7 +76,7 @@ ecommerce_orders_pipeline/
 ├── silver/\
 ├── gold/\
 └── reports/
-
+```
 ------------------------------------------------------------------------
 
 ## Tech Stack
