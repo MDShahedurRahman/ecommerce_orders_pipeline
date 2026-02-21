@@ -52,8 +52,8 @@ Gold → Analytics-ready Star Schema + KPIs
 ```
 ecommerce_orders_pipeline/
 
-├── main.py\
-├── config.py\
+├── main.py
+├── config.py
 ├── requirements.txt
 
 ├── data/
