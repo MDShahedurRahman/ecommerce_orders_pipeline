@@ -63,7 +63,7 @@ ecommerce_orders_pipeline/
 │ ├── bronze_ingestion.py\
 │ ├── silver_cleaning.py\
 │ ├── fraud_detection.py\
-│ ├── gold_star_schema.py\
+│ ├── gold_star_schema.py
 │ └── business_kpis.py
 
 ├── utils/
