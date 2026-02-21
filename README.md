@@ -56,7 +56,7 @@ ecommerce_orders_pipeline/
 ├── config.py\
 ├── requirements.txt
 
-├── data/\
+├── data/
 │ └── orders.csv
 
 ├── jobs/
