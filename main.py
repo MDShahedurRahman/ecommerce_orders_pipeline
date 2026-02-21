@@ -10,6 +10,11 @@ from jobs.business_kpis import run_kpi_job
 def main():
     spark = get_spark_session()
 
+    run_bronze_job(spark)
+
+    spark.stop()
+    print("Pipeline Completed Successfully!")
+
 
 if __name__ == "__main__":
     main()
