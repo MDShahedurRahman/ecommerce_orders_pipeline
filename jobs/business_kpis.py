@@ -4,3 +4,14 @@ from utils.helpers import ensure_dir
 
 
 def run_kpi_job(spark):
+    print("Running Business KPI Job...")
+
+    ensure_dir(REPORT_PATH)
+
+    fact = spark.read.parquet(GOLD_PATH + "fact_orders/")
+
+    revenue_by_payment = (
+        fact.groupBy("payment_type")
+        .agg(sum("total_amount").alias("total_revenue"))
+        .orderBy(desc("total_revenue"))
+    )
