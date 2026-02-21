@@ -59,7 +59,7 @@ ecommerce_orders_pipeline/
 ├── data/\
 │ └── orders.csv
 
-├── jobs/\
+├── jobs/
 │ ├── bronze_ingestion.py
 │ ├── silver_cleaning.py
 │ ├── fraud_detection.py
