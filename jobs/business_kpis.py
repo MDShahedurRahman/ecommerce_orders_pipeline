@@ -15,3 +15,10 @@ def run_kpi_job(spark):
         .agg(sum("total_amount").alias("total_revenue"))
         .orderBy(desc("total_revenue"))
     )
+
+    revenue_by_payment.show()
+
+    revenue_by_payment.write.mode("overwrite").csv(
+        REPORT_PATH + "revenue_by_payment/",
+        header=True
+    )
