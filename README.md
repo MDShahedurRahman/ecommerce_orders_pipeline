@@ -67,14 +67,14 @@ ecommerce_orders_pipeline/
 │ └── business_kpis.py
 
 ├── utils/\
-│ ├── spark_session.py\
+│ ├── spark_session.py
 │ ├── schema.py\
 │ └── helpers.py
 
-└── output/\
-├── bronze/\
-├── silver/\
-├── gold/\
+└── output/
+├── bronze/
+├── silver/
+├── gold/
 └── reports/
 ```
 ------------------------------------------------------------------------
